@@ -1,0 +1,32 @@
+html
+  head
+    title Form
+  body
+    h1 Form
+    form(method="POST")
+      label(for="name") Name:
+      input(type="text" id="name" name="name" required)
+
+      label(for="username") Username:
+      input(type="text" id="username" name="username" required)
+
+      label(for="email") Email:
+      input(type="email" id="email" name="email" required)
+
+      h2 Address:
+      label(for="street") Street:
+      input(type="text" id="street" name="street" required)
+
+      label(for="city") City:
+      input(type="text" id="city" name="city" required)
+
+      label(for="state") State:
+      input(type="text" id="state" name="state" required)
+
+      label(for="country") Country:
+      input(type="text" id="country" name="country" required)
+
+      label(for="postalcode") Postal Code:
+      input(type="text" id="postalcode" name="postalcode" required)
+
+      button(type="submit") Submit
